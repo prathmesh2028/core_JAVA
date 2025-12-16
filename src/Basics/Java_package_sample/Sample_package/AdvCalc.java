@@ -1,4 +1,4 @@
-package Java_package_sample.Sample_package;
+package Basics.Java_package_sample.Sample_package;
 
 public class AdvCalc {
     public int multi(int n1 , int n2){

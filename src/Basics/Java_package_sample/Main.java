@@ -1,7 +1,7 @@
-package Java_package_sample;
+package Basics.Java_package_sample;
 
-import Java_package_sample.Sample_package.AdvCalc;
-import Java_package_sample.Sample_package.Calc;
+import Basics.Java_package_sample.Sample_package.AdvCalc;
+import Basics.Java_package_sample.Sample_package.Calc;
 
 public class Main {
     public static void main(String[] args) {

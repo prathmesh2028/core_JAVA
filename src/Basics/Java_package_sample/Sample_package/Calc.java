@@ -1,4 +1,4 @@
-package Java_package_sample.Sample_package;
+package Basics.Java_package_sample.Sample_package;
 
 public class Calc {
     public int add(int n1 , int n2){
