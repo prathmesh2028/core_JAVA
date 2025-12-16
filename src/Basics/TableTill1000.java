@@ -1,10 +1,9 @@
 package Basics;
 
 import java.io.FileWriter;
-import java.io.IOException;
 import java.util.Scanner;
 
-public class Sample {
+public class TableTill1000 {
     public static void main(String[] args) throws java.io.IOException {
         FileWriter fr = new FileWriter("data.txt");
 
