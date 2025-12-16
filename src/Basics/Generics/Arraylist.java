@@ -10,6 +10,7 @@ public class Arraylist {
         al.add(33);
         al.add(24);
         al.add(24);
+//        int[] a = new int[999999999]; // this gives us memory out error
 //        System.out.println(al.capacity()); error
 
 //        System.out.println(al.get(0));
