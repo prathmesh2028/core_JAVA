@@ -15,5 +15,11 @@ public class ListIteratorInJava {
         while(li.hasNext()){
             System.out.println(li.next());
         }
+
+        // reverse traversal
+//        ListIterator<Integer> li =  list.listIterator(list.size());
+        while(li.hasPrevious()){
+            System.out.println(li.previous());
+        }
     }
 }
