@@ -1,7 +1,22 @@
 package Basics;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+//        Scanner sc = new Scanner(System.in);
+//        System.out.print("Enter the number :");
+//        int n = sc.nextInt();
+        int n = 5;
+        for(int i = 0 ; i < n ; i++){
+            for(int j = 0 ; j < (n-i-1) ; j++){
+                System.out.print("  ");
+            }
+            for(int j = 0 ; j <= i ; j++){
+                System.out.print("*  ");
+            }
+            System.out.println();
+        }
+
     }
 }
