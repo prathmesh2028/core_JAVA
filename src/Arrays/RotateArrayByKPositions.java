@@ -4,5 +4,5 @@ public class RotateArrayByKPositions {
     public static void main(String[] args) {
 
     }
-    public static void revarr
+//    public static void revarr
 }
