@@ -10,5 +10,8 @@ public class BuiltInMethods {
         System.out.println(s.toUpperCase());
         System.out.println(s.startsWith("Prathm"));
         System.out.println(s.contains("adhe"));
+        String str = "12345678";
+        int n = Integer.parseInt(str);
+        System.out.println(n + 1);
     }
 }
