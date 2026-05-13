@@ -30,5 +30,15 @@ public class SwitchStatement {
                 System.out.println("No day matched :)");
 
         }
+
+        // newer version of switch statement :)
+        int day = 4;
+        String result = switch(day) {
+            case 1 -> "Monday";
+            case 2 -> "Tuesday";
+            default -> "Invalid";
+        };
+
+        System.out.println(result);
     }
 }
