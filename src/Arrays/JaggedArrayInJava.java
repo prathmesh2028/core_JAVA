@@ -7,14 +7,23 @@ public class JaggedArrayInJava {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number :");
         int n = sc.nextInt();
-        int [][] a = new int[n][];
-        for(int i = 0 ; i < a.length ; i++){
-            a[i] = new int[i+1];
-            for(int j = 0 ; j < a[i].length ; j++){
-                a[i][j] = i;
-                System.out.print(a[i][j] + " ");
+
+        // Jagged array
+        int[][] arr = new int[n][];
+//        arr[0] = new int[3];
+//        arr[1] = new int[4];
+//        arr[2] = new int[2];
+
+        for(int i = 0 ; i < arr.length ; i++)
+        {
+            arr[i] = new int[i+1];
+            for(int j = 0 ; j < arr[i].length ; j++)
+            {
+                arr[i][j] = i;
+                System.out.print(arr[i][j] + " ");
             }
             System.out.println();
         }
+
     }
 }
