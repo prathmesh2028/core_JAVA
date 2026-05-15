@@ -32,12 +32,14 @@ class VeryAdvCalc extends AdvCalc
 public class InheritanceBasics {
     public static void main(String[] args)
     {
-        AdvCalc obj = new AdvCalc();
+        VeryAdvCalc obj = new VeryAdvCalc();
         int r1 = obj.add(3,4);
         int r2 = obj.sub(10,5);
         int r3 = obj.mul(3,4);
         int r4 = obj.div(10 , 5);
+        double r5 = obj.pow(2,3);
         System.out.println(r1 + " " + r2);
         System.out.println(r3 + " " + r4);
+        System.out.println(r5);
     }
 }
