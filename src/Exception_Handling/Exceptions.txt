@@ -1,0 +1,53 @@
+Exceptions
+
+Error
+1) Compile time error
+2) Runtime error  ==> exception handling
+3) Logical error
+
+
+Statement
+1) Normal
+2) Critical
+
+
+
+eg. ArithmeticException -> RuntimeException -> Exception -> Throwable -> Object
+
+
+Errors are not actually handable
+                                                        Object
+                                                           |
+                                                        Throwable
+                                                           |
+                                --------------------------------------------------------
+                                |                                                     |
+                                |                                                     |
+                                |                                                     |
+                              Error                                                Exception
+                                |                                                     |
+                                |                                                     |
+                         -------|--------                                   -----------------------
+                         |      |       |                                   |                     |
+                         |      |       |                                   |                     |
+                         |      |       |                                   |                     |
+                   ThreadDeath  |    IOerror                         Unchecked Exception    Checked Exception
+                                |                                           |                       |
+                         VirtualMachineError                                |                       |
+                                |                                           |                       |
+                                |                                Runtime Exceptions        -----------------
+                           Out of Memory                                   |               |                |
+                                                                           |               |                |
+                                                                           |           SQL Exception     IO Exception
+                                                                           |
+                                                                           |
+                                                                           |
+                                                                           |
+                                                                           |
+                                                                1) ArithmeticException
+                                                                2) ArrayIndexOUtOfBoundsException
+                                                                3) NullPointerException
+
+
+
+# throw keyword
