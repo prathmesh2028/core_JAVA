@@ -16,11 +16,14 @@ public class InputInJava {
 //        int num = Integer.parseInt(bf.readLine());
 //        System.out.println(num);
 //        bf.close();
+        // our responsibility to close it for the good practise :)
 
 
         // scanner class
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         System.out.println(num);
+        System.out.println("Hello");
+        sc.close();
     }
 }

@@ -51,3 +51,5 @@ Errors are not actually handable
 
 
 # throw keyword
+
+-> Generally finally block is used to close the resource
