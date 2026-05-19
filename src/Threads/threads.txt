@@ -1,0 +1,10 @@
+ software
+    ^
+    |
+    |
+    |
+Operating System
+    ^
+    |
+    |
+ Hardware ---> RAM , CPU
