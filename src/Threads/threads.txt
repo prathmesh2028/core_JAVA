@@ -8,3 +8,66 @@ Operating System
     |
     |
  Hardware ---> RAM , CPU
+
+we can set the priority to the threads as
+1)MIN priority
+2)MAX priority
+3)Normal priority
+
+
+we can also set threads to sleep
+
+
+A class
+  |
+  |
+Thread  (class)
+  |
+  |
+Runnable (interface)
+
+
+
+
+The start() , run() are only associated with the Thread class and not with the Runnable interface
+Thread constructor takes the runnable object as a arguement when creating a thread as
+Thread t = new Thread(Runnable obj);
+
+
+
+Mutation
+Means something you can change like
+for eg, int i = 5;
+        i++;
+        i = 6;
+Threads in mutation is not a good idea
+If you still need it make sure it is thread safe.
+
+
+
+Thread safe
+Only one thread can work there at one point
+
+
+
+join() here means:
+
+“Wait for this thread to join back with the current flow of execution.”
+
+
+
+In Java, synchronized is basically a locking mechanism used to protect
+ shared resources when multiple threads access them.
+
+----------------------------------------------------------------------------------------------------------------------------------
+Thread states
+1) new state [Thread t1 = new thread() ]
+   after executing start() it goes to runnable
+   |
+   |
+2) Runnable state <----------notifies-------------|
+3) Running state (actually running on the CPU)    |
+4) Waiting state (sleep , wait method)  ----------|
+5) Dead state (stop())
+
+
