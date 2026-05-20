@@ -8,3 +8,6 @@ Collection
 1) List eg. Arraylist , LinkedList
 2) Queue eg. DeQueue
 3) Set eg. HashSet , LinkedHashSet
+
+
+Hashtable is synchronized while the hashMap is un synchronized
