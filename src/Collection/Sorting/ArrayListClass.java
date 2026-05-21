@@ -12,7 +12,6 @@ public class ArrayListClass {
                 else return -1;
             }
         };
-
         List<Integer> nums = new ArrayList<>();
         nums.add(4);
         nums.add(7);
