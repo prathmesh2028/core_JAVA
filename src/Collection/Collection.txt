@@ -11,3 +11,8 @@ Collection
 
 
 Hashtable is synchronized while the hashMap is un synchronized
+
+
+
+Comparator
+Comparable learn a bit about it
